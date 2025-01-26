@@ -1,0 +1,415 @@
+      <!--Zdravstvuite Mikola. 
+      Ja postaralsa srazu 2h zaizev: sdelat stranichjku kak ja hotel, 
+      (u menja byla vizualnjaja kartinka) i ispolzovat selektory css, sematicheskie tegi i 
+      drugie tegi. Nadejs tak mozno. S dezainom sekzii Our Specialties i futera poka ne spravilsa kak hotel, 
+      no eto vrode poka ne sut. Mozet ne vse selektory ispolzoval chto prohodili, 
+      no ispolzoval i te chto ne prohodili, kak grid, text-justify itd. Sut ponimaju. 
+      Kak rabotajut inline CSS stili pozazal na primere classa "header". 
+      Esli nado peredelat, sdelaju-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nice Stranichka</title>
+<style>
+.megacontainer{
+    margin: auto;
+    width: 80%;
+    border: 3px solid green;
+}
+
+.container{
+    margin: auto;
+    width: 85%;
+}
+.icons{
+    margin-top: 40px;
+    margin-left: 1240px;
+    color: azure;
+    position: absolute;
+
+}
+.logo{
+    margin-top: 40px;
+    margin-left: 20px;
+    position: absolute;
+
+}
+h1 {
+    padding-top: 240px;
+    padding-bottom: 300px;
+    font-size: 80px;
+    color: beige;
+    text-align: center;
+    text-justify: auto;
+    position: relative;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: 100px 100px 100px ;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+}
+.gridText{
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    text-align: left;
+}
+.gridChef{
+    display: grid;
+    grid-template-columns: 750px 400px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(226, 223, 223);
+    display: flex;
+    justify-content: center;
+}
+.chef{
+    font-size: 80px;
+    color: rgb(24, 24, 24);
+    margin-left: 20px;
+    margin-left: 20px;
+}
+.textChef{
+    font-size: 17px;
+    color: rgb(37, 37, 37);
+    margin-left: 20px;
+}
+.timeStamp{
+    font-size: 12px;
+    color: rgb(61, 61, 61);
+}
+.titelGrid{
+    font-size: 30px;
+    font-style: normal;
+}
+.comments{
+    font-size: 10px;
+}
+.menu{
+    display: flex;
+    font-stretch: normal;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 18px;
+    margin-top: 10px;
+    position: absolute;
+}
+.menuItem{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    color: beige;
+}
+.dishesBlockTitle{
+    height: 200px;
+}
+#h4DishesSmall{
+    color: black;
+    font-size: 18;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+#h1DishesBig{
+    color: black;
+    font-size: 50;
+    margin-top: -250px;
+    display: flex;
+    justify-content: center;
+}
+.grid42{
+        display: grid;
+        grid-template-columns: 100px 100px 100px ;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 7px;
+        display: flex;
+        justify-content: center;   
+    }
+.footer{
+    height: 450px;
+    background-color: rgb(28, 37, 18);
+    margin-top: 300px;
+}
+.chefPicture{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.submitButton{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    color: beige;
+    padding: 20px 0px;
+    border:none;
+}
+.buttonText{
+    color: black;
+    margin-left: 15px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 400px 400px 400px ;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.stunningTitle{
+    color: black;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.stunningText{
+    color: rgb(46, 46, 46);
+    font-size: 17px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.StunningImage{
+    display: flex;
+    justify-content: center;
+}
+.footerTitles{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: azure;
+    text-align: center;
+}
+.footerTextmain{
+    color: blanchedalmond;
+    font-size: 19px;
+    text-align: center;
+}
+.copyRight{
+    font-size: 12px;
+    color: beige;
+    text-align: center;
+}
+#footerLogo{
+    margin-left: auto;
+    margin-right: 50%;
+    align-items: stretch;
+}
+.Gridthree{
+    display: grid;
+    grid-template-columns: 130px 130px 130px 130px 130px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(226, 223, 223);
+    display: flex;
+    justify-content: center;
+}
+.fiveItems{
+    display: grid;
+    grid-template-columns: 130px 130px 130px 130px 130px ;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imageFive{
+    display: flex;
+    justify-content: center;
+}
+.classnyKlas{
+    color: rgb(31, 31, 31);
+    font-size: 18px;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+}
+    </style>
+</head>
+<body>
+
+<div class="megaContainer">
+  <header>
+    <div class="header" style="margin: auto; background-color: rgb(26, 46, 39); height: 500px; margin-top: -50px;">
+        <figure>
+          <div class="logo">
+              <image src="cover.jpg" width="100px"/>
+          </div>
+        </figure>
+        <nav>
+          <div class="navigation">
+              <ul class="menu">
+                  <li class="menuItem">HOME</li>
+                  <li class="menuItem">PAGES</li>
+                  <li class="menuItem">ELEMENTS</li>
+                  <li class="menuItem">PORTFOLIO</li>
+                  <li class="menuItem">CONTACT</li>
+
+              </ul>
+          </div>
+        </nav>
+          <h5 class="icons"> NL UK USA </h5>
+          <h1 class="title">Food Blog</h1>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <section>
+        <div class="grid">
+          <article>
+            <div>
+              <figure>
+                <image src="cover.jpg" width="350px"/>
+              </figure>
+              <h5 class="timeStamp">APRIL 13, 2016 FOOD</h5>
+              <h2 class="titelGrid">Find now the answers to your questions</h2>
+              <p class="gridText">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by...</p>
+              <h5 class="comments">2 comments</h5>
+            </div>
+        </article>
+        <article>
+            <div>
+              <figure>
+                	<image src="cover.jpg" width="350px"/>
+              </figure>
+              <h5 class="timeStamp">APRIL 13, 2016 FOOD</h5>
+              <h2 class="titelGrid">Find now the answers to your questions</h2>
+              <p class="gridText">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by..</p>
+              <h5 class="comments">2 comments</h5>
+            </div>
+          </article>
+          <article>
+            <div>
+              <figure>
+                <image src="cover.jpg" width="350px"/>
+              </figure>
+              <h5 class="timeStamp">APRIL 13, 2016 FOOD</h5>
+              <h2 class="titelGrid">Find now the answers to your questions</h2>
+              <p class="gridText">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by...</p>
+              <h5 class="comments">2 comments</h5>
+            </div>
+          </article> 
+        </div>
+      </section>
+    </div>
+      <section>
+        <div class="gridChef">
+          <div>
+            <p class="chef">Our Chef</p>
+            <p class="textChef">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidition ullamco </br>laboris nisi ut aliquip ex ea commodo condor consectetur adipiscing elit, sed do eiusmod</br> tempor incidition ullam.</p>
+            <button class="submitButton" type="submit"><span class="buttonText">VIEW OUR MENU</span>/button>
+          </div>
+          <figure>
+            <div class="chefPicture">
+                <image class="chefPicture" src="cover.jpg" width="400px"/>
+            </div>
+          <figure> 
+        </div>
+      </section>>
+    <div class="dishesBlockTitle">
+      <h4 id="h4DishesSmall">TASTY AND CRUNCHY</h4>
+      <h1 id="h1DishesBig">Our Specialties</h1>
+    </div>
+    <div class="grid42">
+      <div>
+        <div class="StunningImage">
+          <image src="cover.jpg" width="100px" />
+        </div>
+        <h2 class="stunningTitle">FRESH RECIPES</h2>
+        <p class="stunningText">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa ntium doloremque.</p>
+      </div>
+      <div>
+        <div class="StunningImage">
+          <image src="cover.jpg" width="100px" />
+        </div>
+        <h5 class="stunningTitle">PARTY SNACKS</h5>
+        <p class="stunningText">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa ntium doloremque.</p>
+      </div>
+      <div>
+        <div class="StunningImage">
+          <image src="cover.jpg" width="100px" />
+        </div>
+        <h5 class="stunningTitle">CELEBRATIONS</h5>
+        <p class="stunningText">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa ntium doloremque.</p>
+    </div>
+      <div>
+        <div class="StunningImage">
+          <image src="cover.jpg" width="100px" />
+        </div>
+        <h5 class="stunningTitle">INGREDIENTS</h5>
+        <p class="stunningText">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa ntium doloremque.</p>
+      </div>
+    </div>
+    </div>
+    <div class="widePicture">
+      <p class="den">OCTOBER 7, 2016 APPETIZER</p>
+      <p class="bifText"> Food for the body is not enough. There must be food for the soul.</p>
+      <p class="author">— DOROTHY DAY</p>
+    </div>
+    <div class="Gridthree">
+    <div class="fiveItems">
+      <div class="imageFive">
+        <image src="cover.jpg" width="100px" />
+      </div>
+      <p class="classnyKlas">Css is Awesome</p>
+      <p class="React is also awesome"></p>
+    </div>
+    <div class="fiveItems">
+      <div class="imageFive">
+        <image src="cover.jpg" width="100px" />
+      </div>
+      <p class="classnyKlas">Css is Awesome</p>
+      <p class="React is also awesome"></p>
+    </div>
+    <div class="fiveItems">
+      <div class="imageFive">
+        <image src="cover.jpg" width="100px" />
+      </div>
+      <p class="classnyKlas">Css is Awesome</p>
+      <p class="React is also awesome"></p>
+    </div>
+    <div class="fiveItems">
+      <div class="imageFive">
+        <image src="cover.jpg" width="100px" />
+      </div>
+      <p class="classnyKlas">Css is Awesome</p>
+      <p class="React is also awesome"></p>
+    </div>
+    <div class="fiveItems">
+      <div class="imageFive">
+        <image src="cover.jpg" width="100px" />
+      </div>
+      <p class="classnyKlas">Css is Awesome</p>
+      <p class="React is also awesome"></p>
+    </div>
+
+    </div>
+  </main>
+  <footer>
+      <div class="footer">
+          <div class="grid2">
+            <div>
+              <p class="footerTitles">TWITTER FEED</p>
+          </div>
+          <div>
+              <image id="footerLogo" src="cover.jpg" width="100px"/>
+              <p class="footerTextmain">Sed ut perspiciatis unde omnis iste natus</br>
+                  error sit voluptatem accusantium </br>doloremque.</br>+387648592568 </br>savory@qodeinteractive.com</br> Eighth Avenue 487, New York</p>
+          <p class="copyRight"> Atteractive, All Rights Reserved</p>
+          </div>
+          <div>
+              <p class="footerTitles">INSTAGRAM FEED</p>
+          </div>
+          </div>
+      </div>
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+div {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    width: 400px;
+}
+.nice{
+    color: green;
+    font-weight: bold;
+}
+ #verynice{
+    color: blue;
+    font-weight: bold;
+}
+ul{
+    display: flex;  
+}
+.menu{
+    margin: 0px 20px;
+    list-style: none;
+}
+.linkstyle {
+    font-style: oblique;
+    font-size: 25px;
+    }
+
+.textonpage {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    width: 400px;
+}
+.nice{
+    color: green;
+    font-weight: bold;
+}
+ #verynice{
+    color: blue;
+    font-weight: bold;
+}
+P {
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: royalblue;
+    text-align: center;
+    text-justify: auto;
+    position: relative;
+
+}
+#textonpropertiepage{
+    font-size: 15px;;
+    font-style: italic;
+    line-height: 5cqb;
+
+}

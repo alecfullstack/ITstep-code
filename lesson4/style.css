@@ -1,0 +1,38 @@
+table, th, td {
+    border: 1px solid green;
+    border-collapse: collapse;
+  }
+th{
+    padding: 30px;
+  }
+tr > small{
+    padding: 20px;
+  }
+#michael{
+    background-color: rgb(176, 143, 219);
+    padding: .5em;
+    border: 2px solid green;
+}
+ul{
+    margin-left: 20px;
+    border: 2px solid rgb(32, 139, 32);
+}
+h1,h2 {
+   background-color: aqua;
+   padding: .5em;
+   border: 2px solid rgb(32, 42, 131);
+}
+#big,#small{
+   margin-top: 20px;
+}
+ol{
+   border: 2px solid rgb(32, 139, 32);
+   background-color: rgb(172, 190, 165);
+   padding: 20px;
+}
+.noborder{
+  border-radius: 10px;
+  padding: 25px;
+  background-color: aliceblue;
+  margin: 10px 10px;
+}
