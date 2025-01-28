@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header header header"
+    "content content2 content3 content4"
+     "footer footer footer footer";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5px;
+  background-color: #2196F3;
+  padding: 5px;
+}
+.container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+}
+.container > div.header {
+  grid-area: header;
+  text-align: center;
+}
+.container > div.content {
+  grid-area: content;
+}
+.container > div.content2 {
+  grid-area: content2;
+}
+.container > div.content3 {
+  grid-area: content3;
+}
+.container > div.content4 {
+  grid-area: content4;
+}
+.container > div.footer {
+  grid-area: footer;
+}
+</style>
+</head>
+<body>
+
+
+<div class="container">
+  <div class="header"><h2>My Header</h2></div>
+  <div class="content">asa</div>
+    <div class="content2">asa</div>
+      <div class="content3">aadva</div>
+            <div class="content4">asa</div>
+  <div class="footer"><h4>Footer</h4></div>
+</div>
+
+</body>
+</html>
+
+

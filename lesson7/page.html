@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#header {
+background-color: #f34a90;
+padding: 60px;
+text-align: center;
+        }
+#headerblok {
+margin: 0 auto;
+background-color: #ffffff;
+padding: 40px;
+width: 70%;
+height: 50%;
+        }
+#innerblok {
+margin: 0 auto;
+background-color: #030303;
+padding: 40px;
+width: 70%;
+height: 50%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+        }
+#menucontainer{
+padding: 15px 0;
+background-color: rgb(80, 80, 80);
+text-align: center;
+        }
+.menu{
+    flex: left;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: aqua;
+}
+#block1{
+    width: 70%;
+    padding: 40px;
+    background-color: #ff0000;
+}
+#block2{
+    width: 50%;
+    padding: 40px;
+    background-color: #eeae26;
+}
+#block3{
+    width: 50%;
+    padding: 40px;
+    background-color: #2d8b8b;
+}
+#block4{
+    width: 50%;
+    padding: 40px;
+    background-color: #afd602;
+}
+.main{
+    flex: left;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+#mainblock1{
+    width: 33.333333%;
+    padding: 40px 0 0 0;
+    background-color: #050941;
+}
+#mainblock2{
+    width: 33.333333%;
+    padding: 40px 0 0 0;
+    background-color: #67176e;
+}
+#mainblock3{
+    width: 33.333333%;
+    padding: 40px 0 0 0;
+    background-color: #343cb4;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div id="header">
+            <div id="headerblok">
+                <div id="innerblok"></div>
+            </div>
+        </div>
+    </header>
+    <nav>
+    <div id="menucontainer">
+        <div class="menu">
+            <div id="block1"></div>
+            <div id="block2"></div>
+            <div id="block3"></div>
+            <div id="block4"></div>
+        </div>
+        </div>
+    </nav>
+    <main>
+        <div class="main">
+            <div id="mainblock1">
+                <div style="background-color: #050941; padding: 0px 20px 0 20px;">
+                    <div style="display: flex; align-items: end;background-color: #1c5757; height: 300px; ">
+                        <div style="width: 50%; padding: 10px; height: 200px;background-color: #eeae26;"></div>
+                        <div style="width: 50%; padding: 10px; height: 200px;background-color: #917843;"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="mainblock2">
+                <div style="display: flex; align-items: end; background-color: #67176e; height: 300px;">
+                    <div style="padding: 0px;height: 220px; width: 140px; background-color: #917843;"></div>
+                    <div style="padding: 0px;height: 220px; width: 140px; background-color: #228a70;">
+                        <div style="display: flex; align-items: end;background-color: #1c5757; height: 200px; padding: 20px 0 0 0;">
+                            <div style="width: 50%; padding: 10px 0 0 0; height: 160px;background-color: #eeae26;">
+                                <div style="flex-direction: column; align-items: end; ">
+                                    <div style="height: 100px; background-color: #67176e;"></div>
+                                    <div style="height: 60px; background-color: #67176e;"></div>
+                                </div>
+                            </div>
+                            <div style="width: 50%; padding: 10px 0 0 0; height: 160px;background-color: #eeae26;">
+                                <div style="flex-direction: column; align-items: end; ">
+                                    <div style="height: 90px; background-color: #eeae26;"></div>
+                                    <div style="height: 70px; background-color: #7a7bc0;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding: 0px;height: 220px; width: 140px; background-color: #783996;">
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="mainblock3">
+                <div style="display: flex; align-items: end; background-color: #343cb4; height: 300px;">
+                    <div style="padding: 0px;height: 140px; width: 33%; background-color: #917843;align-self: end;"></div>
+                    <div style="padding: 0px;height: 140px; width: 33%; background-color: #228a70; align-self: center"></div>
+                    <div style="padding: 0px;height: 140px; width: 33%; background-color: #783996; align-self: start">
+                        <div style="display: flex; justify-content: end;">
+                            <h5 style="margin-top: 20px; text-align: right; background-color: #030303; color: #ffffff; padding: 4px;">Tekst</h5>
+                        </div>
+                        <div style="display: flex; justify-content: start;">
+                            <h5 style="margin-bottom: 20px; text-align: right; background-color: #030303; color: #ffffff; padding: 4px;">Tekst</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>
